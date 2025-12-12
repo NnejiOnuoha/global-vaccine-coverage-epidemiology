@@ -4,11 +4,11 @@ Global COVID-19 Vaccination Coverage: An Applied Epidemiology Analysis
 
 This project analyzes global COVID-19 vaccination coverage using publicly available datasets from Our World in Data (OWID). It focuses on temporal trends, cross-country comparisons, and disparities across continents. The goal is to demonstrate applied epidemiologic reasoning using real-world data, reproducible workflows, and clear public health interpretation.
 
-📌 Research Question
+Research Question
 
 How did COVID-19 vaccination coverage evolve globally, and what disparities existed across countries and continents?
 
-📂 Dataset
+Dataset
 
 Source: Our World in Data (OWID) – COVID-19 Vaccinations
 Includes:
@@ -27,7 +27,7 @@ Country-level metadata
 
 The analysis uses the country-level vaccination dataset only.
 
-🧹 Methods
+Methods
 1. Data Cleaning
 
 Selected relevant columns
@@ -58,7 +58,7 @@ Bar chart comparing continents (vaccinations per 100 people)
 
 Line plots showing vaccination trends over time for multiple countries
 
-📊 Key Findings
+Key Findings
 
 Europe and South America achieved the highest vaccination coverage per 100 people.
 
@@ -66,7 +66,7 @@ Africa had the lowest vaccination coverage, highlighting global inequities.
 
 Time-series trends reveal early rapid uptake in high-income countries and delayed or slow uptake in several low- and middle-income countries.
 
-🔍 Epidemiological Significance
+Epidemiological Significance
 
 This project demonstrates core applied epidemiology skills:
 
@@ -80,7 +80,7 @@ Interpreting trends in a population-health context
 
 Communicating findings concisely and effectively
 
-🛠️ Tech Stack
+Tech Stack
 
 Python
 
@@ -92,14 +92,14 @@ Matplotlib / Seaborn
 
 Jupyter Notebook
 
-📄 Project Structure
+Project Structure
 /notebooks
     └── covid_vaccination_analysis.ipynb
 /data
     └── vaccinations.csv
 README.md
 
-📘 How to Use
+How to Use
 
 Clone the repo
 
